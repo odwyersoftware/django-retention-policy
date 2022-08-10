@@ -4,6 +4,11 @@ Deletes Django database records according to a retention policy of your choice.
 
 ## Installation
 
+First of all you need your Django application setup with [Celery](https://docs.celeryq.dev/en/stable/).
+With both a worker process and a [Celery beat](https://docs.celeryq.dev/en/stable/userguide/periodic-tasks.html) process.
+
+Then proceed to install the package.
+
 ```bash
 pip install django-retention-policy
 ```
