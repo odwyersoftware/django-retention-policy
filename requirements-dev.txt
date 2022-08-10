@@ -1,0 +1,8 @@
+-r requirements.txt
+brunette==0.2.7
+pep8-naming==0.13.1
+mccabe==0.7.0
+flake8==5.0.4
+pytest-django==4.5.2
+pytest-freezegun==0.4.2
+zest.releaser==7.0.0a3
